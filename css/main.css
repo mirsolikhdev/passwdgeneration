@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(red, yellow) no-repeat;
+}
+.container{
+    width: 500px;
+    height: 200px;
+    margin: 150px auto;
+    background: linear-gradient(to right, red, yellow);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-family: sans-serif;
+}
+input{
+    padding: 10px;
+    border:0;
+    border-radius: 5px;
+    color: #fff;
+}
+button{
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border:0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+button:hover{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to left, red, yellow);
+}
+button:active{
+    color: red;
+}
